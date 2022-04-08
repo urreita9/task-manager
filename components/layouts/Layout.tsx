@@ -7,7 +7,7 @@ interface Props {
 	title?: string;
 	children: React.ReactNode;
 }
-export const Layout: FC<Props> = ({ title = 'Open Jira App', children }) => {
+export const Layout: FC<Props> = ({ title = 'Task Manager App', children }) => {
 	return (
 		<Box
 			sx={{
