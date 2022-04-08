@@ -1,5 +1,5 @@
 import type { NextPage } from 'next';
-import { Card, CardHeader, Grid, Typography } from '@mui/material';
+import { Card, CardContent, CardHeader, Grid, Typography } from '@mui/material';
 import { Layout } from '../components/layouts';
 
 const HomePage: NextPage = () => {
@@ -9,6 +9,11 @@ const HomePage: NextPage = () => {
 				<Grid item xs={12} sm={4}>
 					<Card sx={{ height: 'calc(100vh - 100px)' }}>
 						<CardHeader title='Pending' />
+
+						<CardContent>
+							{/* Add new Task */}
+							{/* List tasks */}
+						</CardContent>
 					</Card>
 				</Grid>
 				<Grid item xs={12} sm={4}>
